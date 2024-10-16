@@ -4,7 +4,9 @@ Official implementation of “Exploring Rich Subjective Quality Information for 
 
 ## Preparation
 
-Before running the program, you need to download pretrained 	[CvT]([http://blog.csdn.net/guodongxiaren "悬停显示"](https://onedrive.live.com/?authkey=%21AMXesxbtKwsdryE&id=56B9F9C97F261712%2115004&cid=56B9F9C97F261712)) models (CvT-21-384x384-IN-22k.pth). And put the downloaded weight in the checkpoint folder.
+Before running the program, you need to download pretrained
+[CvT](https://onedrive.live.com/?authkey=%21AMXesxbtKwsdryE&id=56B9F9C97F261712%2115004&cid=56B9F9C97F261712)
+ models (CvT-21-384x384-IN-22k.pth). And put the downloaded weight in the checkpoint folder.
 
 ## Train
 python main.py
