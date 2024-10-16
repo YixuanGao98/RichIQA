@@ -1,5 +1,4 @@
 
-#通过预测出来的直方图来计算MOS值
 import os
 import torch
 import torchvision
