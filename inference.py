@@ -4,14 +4,18 @@ from PIL import Image
 import os
 
 # Assuming the model definition is already available, import your trained model class
-from main import pil_loader
+from main import pil_loader,RichIQA
 
 # Define the path to the saved model
-MODEL_PATH = 'path/to/your/saved_model.pth'  # Update this path to the location of your trained model
+MODEL_PATH = 'pretrined_Model.pkl'  # Update this path to the location of your trained model
 
 # Load the trained model
+
+
 def load_model(model_path):
-    model = torch.load(model_path, map_location=torch.device('cpu'))  # Update if you want to use GPU
+    
+    model = torch.nn.DataParallel(RichIQA(options=None), device_ids=[0]).cuda()
+    model.load_state_dict(torch.load(model_path))
     model.eval()
     return model
 
@@ -41,7 +45,7 @@ if __name__ == "__main__":
     model = load_model(MODEL_PATH)
 
     # Define the image path (you can change this to any image you want to predict)
-    image_path = 'path/to/your/image.jpg'  # Update this path to your input image
+    image_path = 'test.jpg'  # Update this path to your input image
 
     # Predict the image quality
     quality_score = predict_image_quality(model, image_path)
