@@ -1,6 +1,6 @@
 # RichIQA
 
-Official implementation of “Exploring Rich Subjective Quality Information for Image Quality Assessment in the Wild”
+Official implementation of “[Exploring Rich Subjective Quality Information for Image Quality Assessment in the Wild](https://arxiv.org/pdf/2409.05540)”
 
 ## Preparation
 
@@ -11,3 +11,4 @@ Before running the program, you need to download pretrained
 ## Train
 python main.py
 
+# Citation
