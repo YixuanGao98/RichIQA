@@ -11,4 +11,9 @@ Before running the program, you need to download pretrained
 ## Train
 python main.py
 
+
+## Inference
+python inference.py
+
+Note: Change "MODEL_PATH" to the trained model path. "image_path" is changed to the test image path.
 # Citation
