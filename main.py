@@ -581,11 +581,11 @@ def main():
     
     path = {
 
-        'KONIQ10K': os.path.join('/mnt/sda/gyx/image_database','KON'),
-        'bid': os.path.join('/mnt/sda/gyx/image_database','BID'),
-        'livec': os.path.join('/mnt/sda/gyx/image_database','CLIVE'),
-        'flive': '/mnt/sda/gyx/image_database/FLIVEDatabase/database',
-        'SPAQ': '/mnt/sda/gyx/image_database/SPAQ',
+        'KONIQ10K': os.path.join('/path','KON'),
+        'bid': os.path.join('/path','BID'),
+        'livec': os.path.join('/path','CLIVE'),
+        'flive': '/path/flive',
+        'SPAQ': '/path/SPAQ',
     }
     
     
