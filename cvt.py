@@ -673,7 +673,7 @@ def get_cls_model( **kwargs):
         init=getattr(msvit_spec, 'INIT', 'trunc_norm'),
         spec=msvit_spec
     )
-    msvit.load_state_dict(torch.load('/home/gyx/segment-anything-main/checkpoint/CvT-21-384x384-IN-22k.pth'), strict=False)
+    msvit.load_state_dict(torch.load('checkpoint/CvT-21-384x384-IN-22k.pth'), strict=False)
     # INIT_WEIGHTS=True
     # if INIT_WEIGHTS:
     #     msvit.init_weights(
