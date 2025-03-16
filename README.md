@@ -34,6 +34,8 @@ databases with rich subjective rating labels.
 #### 🔥🔥 Framework of RichIQA
 ![GitHub Logo](RichIQA_framework.png)
 
+#### 🔥🔥🔥  Results of RichIQA
+![GitHub Logo](RichIQA_result.png)
 
 ## Preparation
 
@@ -50,4 +52,14 @@ python inference.py
 
 Note: Change "MODEL_PATH" to the trained model path. "image_path" is changed to the test image path.
 # Citation
-If you have any questions, please let me know.
+If you have any questions, please let me know. If you find the code helpful in your research or work, please cite the following paper(s).
+
+```
+@article{min2025exploring,
+  title={Exploring rich subjective quality information for image quality assessment in the wild},
+  author={Min, Xiongkuo and Gao, Yixuan and Cao, Yuqin and Zhai, Guangtao and Zhang, Wenjun and Sun, Huifang and Chen, Chang Wen},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2025},
+  publisher={IEEE}
+}
+```
