@@ -2,7 +2,8 @@
 
 [Xiongkuo Min](https://minxiongkuo.github.io/), [Yixuan Gao](https://scholar.google.com/citations?user=b1iuPdAAAAAJ&hl=zh-CN&oi=sra), [Yuqin Cao](https://scholar.google.com/citations?user=R2VyxsgAAAAJ&hl=zh-CN&oi=sra), [Guangtao Zhai](https://scholar.google.com/citations?user=E6zbSYgAAAAJ&hl=zh-CN&oi=sra), Wenjun Zhang, Huifang Sun, and Chang Wen Chen.
 
-You can download the work from this link: [[arXiv](https://arxiv.org/pdf/2409.05540)]
+Official implementation of “[Exploring Rich Subjective Quality Information for Image Quality Assessment in the Wild](https://arxiv.org/pdf/2409.05540)”
+
 
 #### 🔥 Abstract of RichIQA
 ---
@@ -32,7 +33,7 @@ databases with rich subjective rating labels.
 
 #### 🔥🔥 Framework of RichIQA
 ![GitHub Logo](RichIQA_framework.png)
-Official implementation of “[Exploring Rich Subjective Quality Information for Image Quality Assessment in the Wild](https://arxiv.org/pdf/2409.05540)”
+
 
 ## Preparation
 
