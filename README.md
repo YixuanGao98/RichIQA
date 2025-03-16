@@ -52,7 +52,7 @@ python inference.py
 
 Note: Change "MODEL_PATH" to the trained model path. "image_path" is changed to the test image path.
 # Citation
-If you have any questions, please let me know. If you find the code helpful in your research or work, please cite the following paper(s).
+If you have any questions, please let me know. If you find the code helpful in your research or work, please cite:
 
 ```
 @article{min2025exploring,
