@@ -50,6 +50,8 @@ python main.py
 ## Inference
 python inference.py
 
+A pre-trained weight: [Baidu](https://pan.baidu.com/s/1eUrtW5q23WViNPP6legx1A?pwd=piwp) Code: piwp
+
 Note: Change "MODEL_PATH" to the trained model path. "image_path" is changed to the test image path.
 # Citation
 If you have any questions, please let me know. If you find the code helpful in your research or work, please cite:
