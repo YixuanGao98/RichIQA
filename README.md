@@ -50,7 +50,7 @@ python main.py
 ## Inference
 python inference.py
 
-A pre-trained weight: [Baidu](https://pan.baidu.com/s/1eUrtW5q23WViNPP6legx1A?pwd=piwp) Code: piwp
+A pre-trained weight: [Baidu](https://pan.baidu.com/s/1zThm0F4h6ze0_td2pMKRJA?pwd=rrdh) Code: rrdh
 
 Note: Change "MODEL_PATH" to the trained model path. "image_path" is changed to the test image path.
 # Citation
